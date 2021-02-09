@@ -1,0 +1,16 @@
+C:\Users\user\source\repos\TeleBot\BizMax.SimpleCli.Console\bin\Debug\netcoreapp3.1\BizMax.Cli.Console.exe
+C:\Users\user\source\repos\TeleBot\BizMax.SimpleCli.Console\bin\Debug\netcoreapp3.1\BizMax.Cli.Console.deps.json
+C:\Users\user\source\repos\TeleBot\BizMax.SimpleCli.Console\bin\Debug\netcoreapp3.1\BizMax.Cli.Console.runtimeconfig.json
+C:\Users\user\source\repos\TeleBot\BizMax.SimpleCli.Console\bin\Debug\netcoreapp3.1\BizMax.Cli.Console.runtimeconfig.dev.json
+C:\Users\user\source\repos\TeleBot\BizMax.SimpleCli.Console\bin\Debug\netcoreapp3.1\BizMax.Cli.Console.dll
+C:\Users\user\source\repos\TeleBot\BizMax.SimpleCli.Console\bin\Debug\netcoreapp3.1\BizMax.Cli.Console.pdb
+C:\Users\user\source\repos\TeleBot\BizMax.SimpleCli.Console\obj\Debug\netcoreapp3.1\BizMax.Cli.Console.csprojAssemblyReference.cache
+C:\Users\user\source\repos\TeleBot\BizMax.SimpleCli.Console\obj\Debug\netcoreapp3.1\BizMax.Cli.Console.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\TeleBot\BizMax.SimpleCli.Console\obj\Debug\netcoreapp3.1\BizMax.Cli.Console.AssemblyInfo.cs
+C:\Users\user\source\repos\TeleBot\BizMax.SimpleCli.Console\obj\Debug\netcoreapp3.1\BizMax.Cli.Console.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\TeleBot\BizMax.SimpleCli.Console\obj\Debug\netcoreapp3.1\BizMax.Cli.Console.csproj.CopyComplete
+C:\Users\user\source\repos\TeleBot\BizMax.SimpleCli.Console\obj\Debug\netcoreapp3.1\BizMax.Cli.Console.dll
+C:\Users\user\source\repos\TeleBot\BizMax.SimpleCli.Console\obj\Debug\netcoreapp3.1\BizMax.Cli.Console.pdb
+C:\Users\user\source\repos\TeleBot\BizMax.SimpleCli.Console\obj\Debug\netcoreapp3.1\BizMax.Cli.Console.genruntimeconfig.cache
+C:\Users\user\source\repos\TeleBot\BizMax.SimpleCli.Console\bin\Debug\netcoreapp3.1\BizMax.CluiLib.dll
+C:\Users\user\source\repos\TeleBot\BizMax.SimpleCli.Console\bin\Debug\netcoreapp3.1\BizMax.CluiLib.pdb
