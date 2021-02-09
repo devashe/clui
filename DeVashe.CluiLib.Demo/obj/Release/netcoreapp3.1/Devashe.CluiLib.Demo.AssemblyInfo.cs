@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Devashe.CluiLib.Demo")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("DeVashe.CluiLib.Demo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("Devashe.CluiLib.Demo")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Devashe.CluiLib.Demo")]
+[assembly: System.Reflection.AssemblyProductAttribute("DeVashe.CluiLib.Demo")]
+[assembly: System.Reflection.AssemblyTitleAttribute("DeVashe.CluiLib.Demo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Создано классом WriteCodeFragment MSBuild.

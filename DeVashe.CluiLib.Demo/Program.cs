@@ -6,7 +6,7 @@ namespace DeVashe.CluiLib.Demo
     {
         static void Main(string[] args)
         {
-            var script = new CluiLib.Clui(printer: System.Console.WriteLine);
+            var script = new Clui(printer: System.Console.WriteLine);
 
             script
                 .Print("Hello, I'm Clui!")

@@ -11,13 +11,17 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Devashe.CluiLib")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("DeVashe.CluiLib")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
+[assembly: System.Reflection.AssemblyCopyrightAttribute("DeVashe")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("Simple, Extendable and Customizable DotNet Command Line User Interface\r\nMade Just" +
+    " for Fun")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("Devashe.CluiLib")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Devashe.CluiLib")]
+[assembly: System.Reflection.AssemblyProductAttribute("DeVashe.CluiLib")]
+[assembly: System.Reflection.AssemblyTitleAttribute("DeVashe.CluiLib")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/devashe/clui")]
 
 // Создано классом WriteCodeFragment MSBuild.
 

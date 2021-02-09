@@ -1,9 +1,0 @@
-C:\Users\user\source\repos\TeleBot\BizMax.Cli\bin\Debug\netstandard2.0\BizMax.Cli.deps.json
-C:\Users\user\source\repos\TeleBot\BizMax.Cli\bin\Debug\netstandard2.0\BizMax.Cli.dll
-C:\Users\user\source\repos\TeleBot\BizMax.Cli\bin\Debug\netstandard2.0\BizMax.Cli.pdb
-C:\Users\user\source\repos\TeleBot\BizMax.Cli\obj\Debug\netstandard2.0\BizMax.Cli.csprojAssemblyReference.cache
-C:\Users\user\source\repos\TeleBot\BizMax.Cli\obj\Debug\netstandard2.0\BizMax.Cli.AssemblyInfoInputs.cache
-C:\Users\user\source\repos\TeleBot\BizMax.Cli\obj\Debug\netstandard2.0\BizMax.Cli.AssemblyInfo.cs
-C:\Users\user\source\repos\TeleBot\BizMax.Cli\obj\Debug\netstandard2.0\BizMax.Cli.csproj.CoreCompileInputs.cache
-C:\Users\user\source\repos\TeleBot\BizMax.Cli\obj\Debug\netstandard2.0\BizMax.Cli.dll
-C:\Users\user\source\repos\TeleBot\BizMax.Cli\obj\Debug\netstandard2.0\BizMax.Cli.pdb

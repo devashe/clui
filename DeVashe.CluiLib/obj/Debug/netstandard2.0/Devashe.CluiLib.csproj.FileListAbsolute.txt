@@ -1,9 +1,0 @@
-C:\Users\user\source\repos\DeVashe\Clui\DeVashe.CluiLib\bin\Debug\netstandard2.0\Devashe.CluiLib.deps.json
-C:\Users\user\source\repos\DeVashe\Clui\DeVashe.CluiLib\bin\Debug\netstandard2.0\Devashe.CluiLib.dll
-C:\Users\user\source\repos\DeVashe\Clui\DeVashe.CluiLib\bin\Debug\netstandard2.0\Devashe.CluiLib.pdb
-C:\Users\user\source\repos\DeVashe\Clui\DeVashe.CluiLib\obj\Debug\netstandard2.0\Devashe.CluiLib.csprojAssemblyReference.cache
-C:\Users\user\source\repos\DeVashe\Clui\DeVashe.CluiLib\obj\Debug\netstandard2.0\Devashe.CluiLib.AssemblyInfoInputs.cache
-C:\Users\user\source\repos\DeVashe\Clui\DeVashe.CluiLib\obj\Debug\netstandard2.0\Devashe.CluiLib.AssemblyInfo.cs
-C:\Users\user\source\repos\DeVashe\Clui\DeVashe.CluiLib\obj\Debug\netstandard2.0\Devashe.CluiLib.csproj.CoreCompileInputs.cache
-C:\Users\user\source\repos\DeVashe\Clui\DeVashe.CluiLib\obj\Debug\netstandard2.0\Devashe.CluiLib.dll
-C:\Users\user\source\repos\DeVashe\Clui\DeVashe.CluiLib\obj\Debug\netstandard2.0\Devashe.CluiLib.pdb

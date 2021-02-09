@@ -2,6 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Simple, Extendable and Customizable DotNet Command Line User Interface
+Made Just for Fun</Description>
+    <Copyright>DeVashe</Copyright>
+    <PackageProjectUrl>https://github.com/devashe/clui</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/devashe/clui</RepositoryUrl>
+    <PackageTags>command line user interface, cli, cli ui</PackageTags>
   </PropertyGroup>
 
 </Project>

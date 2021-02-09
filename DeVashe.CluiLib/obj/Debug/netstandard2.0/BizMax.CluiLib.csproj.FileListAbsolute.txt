@@ -1,9 +1,0 @@
-C:\Users\user\source\repos\TeleBot\BizMax.Cli\bin\Debug\netstandard2.0\BizMax.CluiLib.deps.json
-C:\Users\user\source\repos\TeleBot\BizMax.Cli\bin\Debug\netstandard2.0\BizMax.CluiLib.dll
-C:\Users\user\source\repos\TeleBot\BizMax.Cli\bin\Debug\netstandard2.0\BizMax.CluiLib.pdb
-C:\Users\user\source\repos\TeleBot\BizMax.Cli\obj\Debug\netstandard2.0\BizMax.CluiLib.csprojAssemblyReference.cache
-C:\Users\user\source\repos\TeleBot\BizMax.Cli\obj\Debug\netstandard2.0\BizMax.CluiLib.AssemblyInfoInputs.cache
-C:\Users\user\source\repos\TeleBot\BizMax.Cli\obj\Debug\netstandard2.0\BizMax.CluiLib.AssemblyInfo.cs
-C:\Users\user\source\repos\TeleBot\BizMax.Cli\obj\Debug\netstandard2.0\BizMax.CluiLib.csproj.CoreCompileInputs.cache
-C:\Users\user\source\repos\TeleBot\BizMax.Cli\obj\Debug\netstandard2.0\BizMax.CluiLib.dll
-C:\Users\user\source\repos\TeleBot\BizMax.Cli\obj\Debug\netstandard2.0\BizMax.CluiLib.pdb
