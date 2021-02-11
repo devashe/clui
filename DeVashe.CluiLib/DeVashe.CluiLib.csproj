@@ -9,8 +9,8 @@ Made Just for Fun</Description>
     <PackageProjectUrl>https://github.com/devashe/clui</PackageProjectUrl>
     <RepositoryUrl>https://github.com/devashe/clui</RepositoryUrl>
     <PackageTags>command line user interface, cli, cli ui</PackageTags>
-    <Version>1.0.1</Version>
-    <PackageReleaseNotes>SimpleMenuItem data property added</PackageReleaseNotes>
+    <Version>1.0.2</Version>
+    <PackageReleaseNotes>Generic menu items added (CluiMenuItem&lt;T&gt;)</PackageReleaseNotes>
   </PropertyGroup>
 
 </Project>
