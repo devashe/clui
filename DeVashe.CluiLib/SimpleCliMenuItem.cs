@@ -2,7 +2,7 @@
 
 namespace DeVashe.CluiLib
 {
-    public class SimpleCliMenuItem
+    public partial class SimpleCliMenuItem
     {
         public SimpleCliMenuItem(string label, Action<SimpleCliMenuItem, Clui> handler)
         {
@@ -10,7 +10,24 @@ namespace DeVashe.CluiLib
             Handler = handler;
         }
 
+        public SimpleCliMenuItem(string label, object data, Action<SimpleCliMenuItem, Clui> handler)
+        {
+            Label = label;
+            Data = data;
+            Handler = handler;
+        }
+
+        /// <summary>
+        /// Label for displaying in menus
+        /// </summary>
         public string Label { get; set; }
+        /// <summary>
+        /// Any data associated with menu item for furhter handling
+        /// </summary>
+        public object Data { get; set; }
+        /// <summary>
+        /// Handler that will be invoked when menu item is selected
+        /// </summary>
         public Action<SimpleCliMenuItem, Clui> Handler { get; set; }
     }
 }
