@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace DeVashe.CluiLib
@@ -144,7 +145,15 @@ namespace DeVashe.CluiLib
             task().GetAwaiter().GetResult();
             return this;
         }
-        public Clui Menu<T>(string title, CluiMenuItem<T>[] menuItems, string chooseMenuItemMessage)
+        /// <summary>
+        /// Generic type menu
+        /// </summary>
+        /// <typeparam name="T">Type of CluiMenuItem Data</typeparam>
+        /// <param name="title">Menu title</param>
+        /// <param name="menuItems">Menu items collection</param>
+        /// <param name="prompt">Prompt text</param>
+        /// <returns></returns>
+        public Clui Menu<T>(string title, IEnumerable<CluiMenuItem<T>> menuItems, string prompt)
         {
 
             Print(title);
@@ -162,9 +171,8 @@ namespace DeVashe.CluiLib
 
                 Print("ENTER - exit");
 
-                Ask(chooseMenuItemMessage, (input, cli) =>
+                Ask(prompt, (input, cli) =>
                 {
-
                     if (string.IsNullOrWhiteSpace(input))
                     {
                         shouldExit = true;
@@ -172,9 +180,8 @@ namespace DeVashe.CluiLib
                     else
                     {
                         if (!int.TryParse(input, out var numberFromInput)) return;
-                        if (menuItems.Length <= numberFromInput) return;
-
-                        var selectedMenuItem = menuItems[numberFromInput];
+                        if (counter <= numberFromInput) return;
+                        var selectedMenuItem = menuItems.ElementAt(numberFromInput);
                         selectedMenuItem.Handler(selectedMenuItem.Data, this);
                     }
 
@@ -225,6 +232,28 @@ namespace DeVashe.CluiLib
             return this;
         }
 
+        /// <summary>
+        /// Simple IF implementation
+        /// </summary>
+        /// <param name="condition"></param>
+        /// <param name="delegateThen"></param>
+        /// <param name="delegateElse"></param>
+        /// <returns></returns>
+        public Clui If(Func<bool> condition, Action<Clui> delegateThen, Action<Clui> delegateElse = null)
+        {
+            if (condition())
+            {
+                delegateThen(this);
+            }
+            else
+            {
+                if (delegateElse != null)
+                {
+                    delegateElse(this);
+                }
+            }
+            return this;
+        }
 
         public void Dispose()
         {

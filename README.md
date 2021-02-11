@@ -5,13 +5,18 @@ Made just for fun
 
 Usage example:
 ```
-        static void Main(string[] args)
+       static void Main(string[] args)
         {
             var script = new Clui(printer: System.Console.WriteLine);
 
             script
                 .Print("Hello, I'm Clui!")
                 .Print("You can use me to build command line user interface")
+                .If(
+                    condition: () => { return new Random().Next(0, 2) == 1; },
+                    delegateThen: cli => cli.Print("Hit"),
+                    delegateElse: cli => cli.Print("Miss")
+                    )
                 .Menu("Main menu", new[]
                 {
                     new SimpleCliMenuItem("Menu item 1",MenuItem1Handler),
