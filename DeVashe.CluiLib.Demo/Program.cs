@@ -15,8 +15,15 @@ namespace DeVashe.CluiLib.Demo
                 {
                     new SimpleCliMenuItem("Menu item 1",MenuItem1Handler),
                     new SimpleCliMenuItem("Menu item 2",MenuItem2Handler),
-                    new SimpleCliMenuItem("Menu item 3", (input, clui) => { clui.Print(input.Label); })
+                    new SimpleCliMenuItem("Menu item 3", (menuItem, clui) => { clui.Print(menuItem.Label); })
                 }, "Enter menu item number to invoke")
+                .Menu(
+                    "select i",
+                    new[] {
+                        new CluiMenuItem<int>("1", 1, (val, cli) => { cli.Print("Selected val is {0}", val); })
+                    },
+                    "Select val"
+                )
                 .Exec(Hello)
                 .Exec(f => { System.Console.WriteLine("I'm inline delegate 2"); })
                 .Ask("Select option", (ans, cli) =>

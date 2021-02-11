@@ -144,7 +144,46 @@ namespace DeVashe.CluiLib
             task().GetAwaiter().GetResult();
             return this;
         }
+        public Clui Menu<T>(string title, CluiMenuItem<T>[] menuItems, string chooseMenuItemMessage)
+        {
 
+            Print(title);
+
+            bool shouldExit = false;
+
+            while (!shouldExit)
+            {
+                int counter = 0;
+                foreach (var menuItem in menuItems)
+                {
+                    Print("{0}. {1}", counter, menuItem.Label);
+                    counter++;
+                }
+
+                Print("ENTER - exit");
+
+                Ask(chooseMenuItemMessage, (input, cli) =>
+                {
+
+                    if (string.IsNullOrWhiteSpace(input))
+                    {
+                        shouldExit = true;
+                    }
+                    else
+                    {
+                        if (!int.TryParse(input, out var numberFromInput)) return;
+                        if (menuItems.Length <= numberFromInput) return;
+
+                        var selectedMenuItem = menuItems[numberFromInput];
+                        selectedMenuItem.Handler(selectedMenuItem.Data, this);
+                    }
+
+                });
+
+            }
+
+            return this;
+        }
         public Clui Menu(string title, SimpleCliMenuItem[] menuItems, string chooseMenuItemMessage)
         {
 

@@ -5,6 +5,8 @@ Made just for fun
 
 Usage example:
 ```
+        static void Main(string[] args)
+        {
             var script = new Clui(printer: System.Console.WriteLine);
 
             script
@@ -14,8 +16,15 @@ Usage example:
                 {
                     new SimpleCliMenuItem("Menu item 1",MenuItem1Handler),
                     new SimpleCliMenuItem("Menu item 2",MenuItem2Handler),
-                    new SimpleCliMenuItem("Menu item 3", (input, clui) => { clui.Print(input.Label); })
+                    new SimpleCliMenuItem("Menu item 3", (menuItem, clui) => { clui.Print(menuItem.Label); })
                 }, "Enter menu item number to invoke")
+                .Menu(
+                    "select i",
+                    new[] {
+                        new CluiMenuItem<int>("1", 1, (val, cli) => { cli.Print("Selected val is {0}", val); })
+                    },
+                    "Select val"
+                )
                 .Exec(Hello)
                 .Exec(f => { System.Console.WriteLine("I'm inline delegate 2"); })
                 .Ask("Select option", (ans, cli) =>
@@ -48,5 +57,6 @@ Usage example:
                 .Print("Returned to main scope. i now {0}", script.Get("i"))
                 .Print("Bye!")
                 ;
+        }
 ```
 
