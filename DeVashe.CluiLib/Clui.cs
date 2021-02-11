@@ -239,9 +239,9 @@ namespace DeVashe.CluiLib
         /// <param name="delegateThen"></param>
         /// <param name="delegateElse"></param>
         /// <returns></returns>
-        public Clui If(Func<bool> condition, Action<Clui> delegateThen, Action<Clui> delegateElse = null)
+        public Clui If(Func<Clui, bool> condition, Action<Clui> delegateThen, Action<Clui> delegateElse = null)
         {
-            if (condition())
+            if (condition(this))
             {
                 delegateThen(this);
             }
